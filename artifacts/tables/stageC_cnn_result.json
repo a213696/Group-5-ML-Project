@@ -1,0 +1,30 @@
+[
+  {
+    "model": "CNN-shallow",
+    "n_blocks": 2,
+    "n_params": 156682,
+    "test_accuracy": 0.7421,
+    "macro_f1": 0.7402
+  },
+  {
+    "model": "CNN-medium",
+    "n_blocks": 4,
+    "n_params": 602122,
+    "test_accuracy": 0.8294,
+    "macro_f1": 0.8271
+  },
+  {
+    "model": "CNN-deep",
+    "n_blocks": 6,
+    "n_params": 2036682,
+    "test_accuracy": 0.8387,
+    "macro_f1": 0.836
+  },
+  {
+    "model": "CNN-medium-noaug",
+    "n_blocks": 4,
+    "n_params": 602122,
+    "test_accuracy": 0.7713,
+    "macro_f1": 0.7689
+  }
+]

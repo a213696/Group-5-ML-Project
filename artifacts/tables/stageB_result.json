@@ -1,0 +1,15 @@
+{
+  "model": "Random Forest + GridSearchCV",
+  "stage": "B",
+  "preprocessing": "flatten + StandardScaler + PCA(150)",
+  "best_params": {
+    "rf__n_estimators": 300,
+    "rf__max_depth": null,
+    "rf__max_features": "sqrt",
+    "rf__min_samples_split": 2
+  },
+  "best_cv_score": 0.4551,
+  "test_accuracy": 0.4648,
+  "macro_f1": 0.4629,
+  "weighted_f1": 0.4629
+}

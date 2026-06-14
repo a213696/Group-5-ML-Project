@@ -1,0 +1,14 @@
+{
+  "model": "Logistic Regression (scratch)",
+  "stage": "A",
+  "preprocessing": "flatten + per-channel z-score",
+  "hyperparameters": {
+    "lr": 0.001,
+    "lam": 0.0001,
+    "batch_size": 64
+  },
+  "test_accuracy": 0.3847,
+  "macro_f1": 0.3792,
+  "weighted_f1": 0.3792,
+  "n_params": 30730
+}
