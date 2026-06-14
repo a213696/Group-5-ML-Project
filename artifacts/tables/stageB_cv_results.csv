@@ -1,5 +1,0 @@
-param_rf__n_estimators,param_rf__max_depth,param_rf__max_features,mean_test_score,std_test_score,rank_test_score
-100,20.0,sqrt,0.4382,0.0061,4
-200,20.0,sqrt,0.4495,0.0054,2
-300,,sqrt,0.4551,0.0049,1
-300,,log2,0.443,0.0058,3

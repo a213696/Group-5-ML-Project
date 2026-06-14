@@ -1,8 +1,0 @@
-Stage,Model,Preprocessing,Test Accuracy,Macro F1,Params
-A,Logistic Regression,flatten + z-score,0.3847,0.3792,30730
-B,Random Forest + PCA,flatten + PCA(150),0.4648,0.4629,N/A
-C,CNN-shallow,CNN + augmentation,0.7421,0.7402,156682
-C,CNN-medium,CNN + augmentation,0.8294,0.8271,602122
-C,CNN-deep,CNN + augmentation,0.8387,0.836,2036682
-C,CNN-medium-noaug,CNN without augmentation,0.7713,0.7689,602122
-C,MobileNetV2 Transfer,resize + pre-trained CNN,0.8723,0.8711,2279434
